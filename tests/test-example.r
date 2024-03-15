@@ -8,5 +8,5 @@ test_that("This is an example test", {
   expect_equal(nobs(model), 1704)
   expect_unique(data = gapminder, c(country, year))
   expect_range(data = gapminder, gdpPercap, 0, 1e6)
-  expect_values(data = gapminder, continent, c("Asia", "Europe", "AfricaS", "Americas", "Oceania"))
+  expect_values(data = gapminder, continent, c("Asia", "Europe", "Africa", "Americas", "Oceania"))
 })
